@@ -1,0 +1,32 @@
+.product-main{
+
+    margin: 40px 0;
+    padding: 10px;
+    display: flex;
+   flex-flow: wrap;
+   gap: 10px;
+    justify-content: space-between;
+    .product-container{
+        height: auto;
+        width: 20%;
+
+        .product-img{
+
+            width: 100%;
+            height: auto;
+
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+
+        .product-details{
+
+padding: 20px;
+background-color: white;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.443);
+        }
+    }
+}

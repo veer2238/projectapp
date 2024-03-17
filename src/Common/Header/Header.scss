@@ -1,0 +1,25 @@
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.379);
+
+.header-icon{
+    display: flex;
+    gap: 10px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+
+
+    span{
+        
+        
+        cursor: pointer;
+    }
+}
+}
